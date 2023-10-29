@@ -1,0 +1,202 @@
+
+
+/* CSS untuk Header */
+header {
+    background-color: #5693e2;
+    background-image: url(https://www.mdpi.com/img/journals/ai-logo.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: left;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif; 
+}
+
+
+body {
+    background: linear-gradient(to bottom, #afc0d3, #593dbd);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://thumbs.dreamstime.com/z/web-app-development-ui-design-digital-agency-developers-team-developing-product-develop-content-teamwork-research-users-248890714.jpg?w=768);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+ *{
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* CSS untuk gambar AI */
+#AI {
+    display: block;
+    margin: 0 auto;
+    width: 750px;
+    border: 3px solid #3d5bbd;
+    border-radius: 10px;
+}
+
+
+.outline {
+    outline-style: double;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; 
+    text-align: justify;
+}
+
+.outline h2 {
+    font-size: 24px;
+}
+
+/* CSS untuk Daftar Isi */
+.list {
+    outline-style: double;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.list h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style: square;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+li satu {
+    cursor: help;
+}
+
+/* CSS untuk tautan dalam list */
+ul li a {
+    text-decoration: none;
+    color: #3d74bd;
+    font-weight: bold; 
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* CSS untuk Sejarah Perkembangan AI */
+.Perkembangan {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4; 
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; 
+    text-align: justify;
+}
+
+.Perkembangan h2 {
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+/* CSS untuk Border*/
+.box-model {
+    border: 2px solid #3d50bd;      
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #c6d5e4; 
+}
+
+/* CSS untuk Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    
+}
+
+table thead {
+    background-color: #6c8bee;
+    color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #5977d8;
+    padding: 8px;
+}
+
+/* CSS untuk Kelebihan AI */
+.Kelebihan {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; 
+}
+
+.Kelebihan h2 {
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+/* CSS Kekurangan AI */
+.Kekurangan {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; 
+}
+
+.Kekurangan h2 {
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+/* CSS Contoh Penerapan AI */
+.Contoh {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;   
+}
+
+.Contoh h2 {
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #5693e2;
+    padding-bottom: 3%;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    font-family: Arial, sans-serif; 
+    font-size: medium;
+}
